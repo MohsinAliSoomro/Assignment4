@@ -1,0 +1,9 @@
+// formats a dollar value for facebook. it's pretty sturdy
+function formatDollarValueForFacebook(input) {
+  var output = (input + '').trim();
+  output = output.replace(/[\$,]/g, '');
+  if (!/^((\d+(\.\d*)?)|((\d*)?\.\d+))$/.test(output)) {
+    return input;
+  }
+  return (+output).toFixed(2);
+}

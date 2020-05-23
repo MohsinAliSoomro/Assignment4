@@ -1,12 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
 @font-face {
     font-family: DM;
     src: url('../font/TitilliumWeb-Light.ttf')
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: DM;
+}
+
 .Header{
     width: 100%;
     background-color:#c82333;
@@ -114,4 +115,17 @@ input{
 }
 .nav-link{
     color: white !important;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 10px;
+}
+.owl-dots button{
+    display: inline-block;
+    border: 7px solid  #c82333 !important;
+    border-radius: 50%;
+    margin: 5px;
+}
+.owl-dots button.active{
+    border: 7px solid yellow !important;
 }
