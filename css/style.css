@@ -129,3 +129,13 @@ input{
 .owl-dots button.active{
     border: 7px solid yellow !important;
 }
+.cart{
+    font-size: 20px;
+    margin-left: 150px;
+    visibility: hidden;
+}
+@media screen and (max-width:600){
+    .cart{
+        visibility: hidden;
+    }
+}
