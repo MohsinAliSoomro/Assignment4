@@ -10,7 +10,7 @@
 
 .Header{
     width: 100%;
-    background-color:#c82333;
+    background-color:#c70f22;
     margin: 0px;
 }
 .HeadingPara{
@@ -156,4 +156,42 @@ input{
 }
 .dropdown-menu:hover{
     background-color:  #c82333 !important;
+}
+.list-explore{
+    list-style: none;
+}
+.list-explore a{
+    text-decoration: none;
+}
+.list-explore a:hover{
+    color: gainsboro;
+}
+.take-servey{
+    background-color: #d13847;
+    padding: 10px;
+}
+.btn-take{
+    padding: 6px 22px 6px 22px;
+    background-color: #c82333;
+    border: 2px solid white;
+    color: white;
+    font-family: DM;
+    border-radius: 5px;
+}
+.btn-take:hover{
+    background-color: white;
+    color: black;
+}
+.social-icon img{
+    padding: 4px;
+}
+.footer-Header{
+    background-color: #c82333;
+    padding-top: 15px;
+}
+.input-control{
+    padding: 6px;
+    padding-right: 15px;
+    border: 2px solid white;
+    border-radius: 2px;
 }
